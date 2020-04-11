@@ -1,6 +1,6 @@
 def count_strings(array)
   array.count do |index|
-    array[index].kind_of?(String)
+    array[index].kind_of? String
   end
 end
 
